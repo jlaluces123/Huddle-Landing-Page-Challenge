@@ -65,3 +65,20 @@ body {
   -moz-box-shadow: 1px 5px 5px 1px rgba(0,0,0,0.75);
   box-shadow: 1px 5px 5px 1px rgba(0,0,0,0.75);
 }
+
+.logo-footer {
+  display: flex;
+  margin: 0 12%;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.svg-styling {
+  width: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 24px;
+  border: 2px solid white;
+  padding: 7px;
+  margin-right: 10px;  
+}
