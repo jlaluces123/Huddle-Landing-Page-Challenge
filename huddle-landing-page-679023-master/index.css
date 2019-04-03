@@ -82,3 +82,64 @@ body {
   padding: 7px;
   margin-right: 10px;  
 }
+
+@media screen and (max-width: 800px) {
+
+  .root {
+    height: auto;
+    background-image: url("./images/bg-mobile.svg");
+  }
+
+  .margin-adjust {
+    margin: 0;
+  }
+
+  .logo-wrapper {
+    margin-top: 5%;
+    padding-bottom: 0;
+  }
+
+  .content-section {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  .illustration-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .text-title {     
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+    width: 80%;
+  }
+
+  .register-button {
+    padding: 12px 99px;
+  }
+
+  .logo-footer {
+    display: flex;
+    margin: 0 12%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+  }
+  
+}
