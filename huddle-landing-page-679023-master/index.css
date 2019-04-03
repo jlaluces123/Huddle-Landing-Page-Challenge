@@ -1,3 +1,67 @@
+* {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+}
+
 body {
-  background-color: blue;
+  margin: 0;
+}
+
+.margin-adjust {
+  margin: 0 2%;
+}
+
+.root {  
+  height: 100vh;
+  background-image: url("./images/bg-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  background-color: #7235B2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-wrapper {
+  padding-bottom: 50px;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.illustration-img {
+  width: 90%;
+}
+
+.text-wrapper {
+  width: 50%;
+}
+
+.text-title {
+  font-size: 3.3rem;
+  margin-bottom: 20px;
+  margin-top: 0;
+  width: 80%;
+}
+
+.text-paragraph {
+  width: 80%;
+  font-size: 16px;
+}
+
+.register-button {
+  color: #543F71;  
+  cursor: pointer;
+  padding: 17px 69px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  -webkit-box-shadow: 1px 5px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 5px 5px 1px rgba(0,0,0,0.75);
+  box-shadow: 1px 5px 5px 1px rgba(0,0,0,0.75);
 }

@@ -5,31 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Google Fonts + Made Own CSS Stylesheet -->
+  <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet"> 
   <link rel = "stylesheet" type = "text/css" href = "index.css">
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 --> 
 </head>
 <body>
 
-  <img src = "./images/logo.svg" alt = "logo">
+  <div class = "root">
 
-  <h3>Build The Community Your Fans Will Love</h3>
+    <header class = "logo-wrapper margin-adjust">
+      <img src = "./images/logo.svg" alt = "logo">
+    </header>
 
-  <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion.</p>
+    <section class = "content-section margin-adjust">
+      <div class = "illustration-wrapper">
+        <img class = "illustration-img" src = "./images/illustration-mockups.svg" alt = "illustrations">
+      </div>
 
-  <button>Register</button>
+      <div class = "text-wrapper">
+        <h3 class = "text-title">Build The Community Your Fans Will Love</h3>
+        <p class = "text-paragraph">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+        Create connections with your users as you engage in genuine discussion.</p>
+        <button class = "register-button">Register</button>
+      </div>
+    </section>   
 
-  <footer>
-    <p class="attribution">
-      This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-    </p>
-  </footer>
+</div>
 </body>
 </html>
