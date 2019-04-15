@@ -12,7 +12,8 @@ body {
 }
 
 .root {  
-  height: 100vh;
+  height: auto;
+  padding: 30px 0px;
   background-image: url("./images/bg-desktop.svg");
   background-size: cover;
   background-position: center;
